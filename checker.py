@@ -371,13 +371,18 @@ import re
 import json
 from pathlib import Path
 import asyncio
+from datetime import datetime
+import smtplib
+from email.message import EmailMessage
+import os
 
-url = "https://aws-portal.owlpractice.ca/grichanditherapy/booking?therapist_id=1&location_id=1&rate_id=38&day=2026-07-04&time=&video_session=1"
+url = ("https://aws-portal.owlpractice.ca/grichanditherapy/booking?therapist_id=1&location_id=1&rate_id=38&day=2026-07"
+       "-04&time=&video_session=1")
 
 
 async def main():
     async with async_playwright() as p:
-        browser = await p.chromium.launch(headless=True)
+        browser = await p.chromium.launch(headless=False)
         page = await browser.new_page()
         await page.goto(url)
 
@@ -388,7 +393,7 @@ async def main():
         date = " ".join(date)
         date = date_mapping[date]
 
-        # Read Last State as a JSON file
+        # Read Last State in JSON file
         STATE_FILE = Path("state.json")
 
         if STATE_FILE.exists():
@@ -397,15 +402,47 @@ async def main():
         else:
             state = {}
 
+# Read old state from json file
         old_text = state.get("last_button_text")
 
         new_text = date
 
-        if old_text != new_text:
-            print("Changed!")
+        old_date = datetime.strptime(old_text, "%Y-%m-%d").date()
+        new_date = datetime.strptime(new_text, "%Y-%m-%d").date()
+
+        if new_date < old_date:
+            print("Earlier appointment found!")
+
+            EMAIL = os.environ["EMAIL"]
+            EMAIL_PASSWORD = os.environ["EMAIL_PASSWORD"]
+
+            msg = EmailMessage()
+            msg["Subject"] = "New Safe Refuge Availability"
+            msg["From"] = "sonialxy00@gmail.com"
+            msg["To"] = "sonialxy00@gmail.com"
+            msg.set_content(f"""
+            A new earlier appointment was found.
+
+            Previous: {old_date}
+            New: {new_date}
+
+            {url}
+            """)
+
+            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
+                smtp.login(EMAIL, EMAIL_PASSWORD)
+                smtp.send_message(msg)
+
+            print("Email sent!")
+
+        #elif new_date > old_date:
+        #   print("Earliest appointment moved later.")
+        #else:
+        #    print("No change.")
 
         state["last_button_text"] = new_text
 
+    # Replace state.json with the updated state
         with open(STATE_FILE, "w") as f:
             json.dump(state, f, indent=2)
 
