@@ -25,6 +25,9 @@ jobs:
           playwright install chromium
 
       - name: Run script
+        env:
+          EMAIL: ${{ secrets.EMAIL }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
         run: python checker.py
 
       - name: Commit state
