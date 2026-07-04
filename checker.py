@@ -418,8 +418,8 @@ async def main():
 
             msg = EmailMessage()
             msg["Subject"] = "New Safe Refuge Availability"
-            msg["From"] = "sonialxy00@gmail.com"
-            msg["To"] = "sonialxy00@gmail.com"
+            msg["From"] = EMAIL
+            msg["To"] = EMAIL
             msg.set_content(f"""
             A new earlier appointment was found.
 
