@@ -438,25 +438,8 @@ async def main():
         elif new_date > old_date:
            print("Earliest appointment moved later.")
         else:
-            EMAIL = os.environ["EMAIL"]
-            EMAIL_PASSWORD = os.environ["EMAIL_PASSWORD"]
+            print("No Change")
 
-            msg = EmailMessage()
-            msg["Subject"] = "No New Safe Refuge Availability"
-            msg["From"] = EMAIL
-            msg["To"] = EMAIL
-            msg.set_content(f"""
-            No new apt
-
-            Previous: {old_date}
-            New: {new_date}
-
-            {url}
-            """)
-
-            with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
-                smtp.login(EMAIL, EMAIL_PASSWORD)
-                smtp.send_message(msg)
 
 
         state["last_button_text"] = new_text
