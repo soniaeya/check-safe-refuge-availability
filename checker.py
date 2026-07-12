@@ -428,9 +428,11 @@ async def main():
             msg["To"] = EMAIL
             msg.set_content(f"""
             A new earlier appointment was found.
-  
-            Previous: {right_date_boundary}
-            New: {new_date_found}
+            
+            Left Date Boundary: {left_date_boundary}
+            Previous Earliest Date (Right Date Boundary): {right_date_boundary}
+            New Earliest Date Available: {new_date_found}
+
 
             Booking Portal:
             {url}
