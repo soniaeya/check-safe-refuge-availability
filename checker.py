@@ -403,14 +403,20 @@ async def main():
             state = {}
 
 # Read old state from json file
-        old_text = state.get("last_button_text")
+        # left_date_boundary < x < right_date_boundary
+        # left_date_boundary
+        # new_date_found
 
-        new_text = date
+        left_date_boundary_value = state.get("left_date_boundary")
+        right_date_boundary_value = state.get("right_date_boundary")
 
-        old_date = datetime.strptime(old_text, "%Y-%m-%d").date()
-        new_date = datetime.strptime(new_text, "%Y-%m-%d").date()
+        new_date_found_value = date
 
-        if new_date < old_date:
+        left_date_boundary = datetime.strptime(left_date_boundary_value, "%Y-%m-%d").date()
+        right_date_boundary = datetime.strptime(right_date_boundary_value, "%Y-%m-%d").date()
+        new_date_found = datetime.strptime(new_date_found_value, "%Y-%m-%d").date()
+
+        if left_date_boundary < new_date_found < right_date_boundary:
             print("Earlier appointment found!")
 
             EMAIL = os.environ["EMAIL"]
@@ -422,27 +428,22 @@ async def main():
             msg["To"] = EMAIL
             msg.set_content(f"""
             A new earlier appointment was found.
+  
+            Previous: {right_date_boundary}
+            New: {new_date_found}
 
-            Previous: {old_date}
-            New: {new_date}
-
+            Booking Portal:
             {url}
+        
+            Github: 
+            https://github.com/soniaeya/check-safe-refuge-availability
             """)
 
             with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
                 smtp.login(EMAIL, EMAIL_PASSWORD)
                 smtp.send_message(msg)
-
             print("Email sent!")
-
-        elif new_date > old_date:
-           print("Earliest appointment moved later.")
-        else:
-            print("No Change")
-
-
-
-        state["last_button_text"] = new_text
+        state["right_date_boundary"] = new_date_found
 
     # Replace state.json with the updated state
         with open(STATE_FILE, "w") as f:
