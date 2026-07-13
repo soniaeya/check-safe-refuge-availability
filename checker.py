@@ -418,6 +418,10 @@ async def main():
 
         if left_date_boundary < new_date_found < right_date_boundary:
             print("Earlier appointment found!")
+                    state["right_date_boundary"] = new_date_found_value
+
+            with open(STATE_FILE, "w") as f:
+                json.dump(state, f, indent=2)
 
             EMAIL = os.environ["EMAIL"]
             EMAIL_PASSWORD = os.environ["EMAIL_PASSWORD"]
@@ -445,10 +449,7 @@ async def main():
                 smtp.login(EMAIL, EMAIL_PASSWORD)
                 smtp.send_message(msg)
             print("Email sent!")
-        state["right_date_boundary"] = new_date_found.isoformat()
 
-        with open(STATE_FILE, "w") as f:
-            json.dump(state, f, indent=2)
 
         await browser.close()
 
