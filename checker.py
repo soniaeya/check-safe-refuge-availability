@@ -445,9 +445,8 @@ async def main():
                 smtp.login(EMAIL, EMAIL_PASSWORD)
                 smtp.send_message(msg)
             print("Email sent!")
-        state["right_date_boundary"] = new_date_found
+        state["right_date_boundary"] = new_date_found.isoformat()
 
-    # Replace state.json with the updated state
         with open(STATE_FILE, "w") as f:
             json.dump(state, f, indent=2)
 
