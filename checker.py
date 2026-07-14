@@ -418,10 +418,6 @@ async def main():
 
         if left_date_boundary < new_date_found < right_date_boundary:
             print("Earlier appointment found!")
-                    state["right_date_boundary"] = new_date_found_value
-
-            with open(STATE_FILE, "w") as f:
-                json.dump(state, f, indent=2)
 
             EMAIL = os.environ["EMAIL"]
             EMAIL_PASSWORD = os.environ["EMAIL_PASSWORD"]
@@ -432,11 +428,9 @@ async def main():
             msg["To"] = EMAIL
             msg.set_content(f"""
             A new earlier appointment was found.
-            
-            Left Date Boundary: {left_date_boundary}
-            Previous Earliest Date (Right Date Boundary): {right_date_boundary}
-            New Earliest Date Available: {new_date_found}
-
+  
+            Previous: {right_date_boundary}
+            New: {new_date_found}
 
             Booking Portal:
             {url}
@@ -449,7 +443,11 @@ async def main():
                 smtp.login(EMAIL, EMAIL_PASSWORD)
                 smtp.send_message(msg)
             print("Email sent!")
+        state["right_date_boundary"] = new_date_found_value
 
+    # Replace state.json with the updated state
+        with open(STATE_FILE, "w") as f:
+            json.dump(state, f, indent=2)
 
         await browser.close()
 
