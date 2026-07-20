@@ -10,19 +10,22 @@ import os
 from constants import URL, STATE_FILE, LOGS_FILE
 
 def update_logs(previous_earliest_date, new_earliest_date):
-    today_date = datetime.today().strftime("%Y-%m-%d")
+    today_date = datetime.today().date().isoformat()
 
-    with open(LOGS_FILE, "r") as f:
-        logs = json.load(f)
+    if LOGS_FILE.exists():
+        with open(LOGS_FILE, "r") as f:
+            logs = json.load(f)
+    else:
+        logs = []
 
-    if logs[-1]["today_date"] != today_date:
+    # Add one entry per day
+    if not logs or logs[-1]["today_date"] != today_date:
         logs.append({
             "previous_earliest_date": previous_earliest_date.isoformat(),
             "new_earliest_date": new_earliest_date.isoformat(),
-            "today_date": datetime.today().date().isoformat()
+            "today_date": today_date
         })
 
-    # Write it back to the file
     with open(LOGS_FILE, "w") as f:
         json.dump(logs, f, indent=4)
 
@@ -72,9 +75,6 @@ def get_date_boundaries(date):
 
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
-
-    with open(LOGS_FILE, "w") as f:
-        json.dump(logs, f, indent=2)
 
     return left_date_boundary, right_date_boundary, new_date_found
 
