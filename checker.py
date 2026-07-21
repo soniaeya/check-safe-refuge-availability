@@ -12,19 +12,15 @@ from constants import URL, STATE_FILE, LOGS_FILE
 def update_logs(previous_earliest_date, new_earliest_date):
     today_date = datetime.today().date().isoformat()
 
-    if LOGS_FILE.exists():
-        with open(LOGS_FILE, "r") as f:
-            logs = json.load(f)
-    else:
-        logs = []
 
-    # Add one entry per day
-    if not logs or logs[-1]["today_date"] != today_date:
-        logs.append({
-            "previous_earliest_date": previous_earliest_date.isoformat(),
-            "new_earliest_date": new_earliest_date.isoformat(),
-            "today_date": today_date
-        })
+    with open(LOGS_FILE, "r") as f:
+        logs = json.load(f)
+
+    logs.append({
+        "previous_earliest_date": previous_earliest_date.isoformat(),
+        "new_earliest_date": new_earliest_date.isoformat(),
+        "today_date": today_date
+    })
 
     with open(LOGS_FILE, "w") as f:
         json.dump(logs, f, indent=4)
