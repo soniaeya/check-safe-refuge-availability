@@ -16,10 +16,11 @@ def update_logs(previous_earliest_date, new_earliest_date):
     with open(LOGS_FILE, "r") as f:
         logs = json.load(f)
 
+    if logs[-1]["today_date"] != today_date:
     logs.append({
         "previous_earliest_date": previous_earliest_date.isoformat(),
         "new_earliest_date": new_earliest_date.isoformat(),
-        "today_date": today_date
+        "today_date": datetime.today().date().isoformat()
     })
 
     with open(LOGS_FILE, "w") as f:
