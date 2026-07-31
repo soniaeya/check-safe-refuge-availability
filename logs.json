@@ -1,672 +1,77 @@
 [
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-16"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-21"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-22"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-22"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-22"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-22"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-22"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-22"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-22"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-22"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-22"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-23"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-24"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-24"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-24"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-24"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-24"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-24"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-24"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-24"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-24"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-24"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-24"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-24"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-24"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-25"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-26"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-27"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-27"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-27"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-27"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-27"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-27"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-27"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-27"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-27"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-27"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-27"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-28"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-28"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-28"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-28"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-28"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-28"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-28"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-28"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-28"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-28"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-28"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-28"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-28"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-29"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-29"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-29"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-29"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-29"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-29"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-16",
-        "today_date": "2026-07-29"
-    },
-    {
-        "previous_earliest_date": "2026-08-16",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-29"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-29"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-29"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-29"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-29"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-29"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-30"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-31"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-31"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-31"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-31"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-31"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-31"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-31"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-31"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-31"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-31"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-15",
-        "today_date": "2026-07-31"
-    },
-    {
-        "previous_earliest_date": "2026-08-15",
-        "new_earliest_date": "2026-08-08",
-        "today_date": "2026-07-31"
-    }
+  {
+    "previous_earliest_date": "2026-08-16",
+    "new_earliest_date": "2026-08-16",
+    "today_date": "2026-07-16"
+  },
+  {
+    "previous_earliest_date": "2026-08-16",
+    "new_earliest_date": "2026-08-16",
+    "today_date": "2026-07-21"
+  },
+  {
+    "previous_earliest_date": "2026-08-16",
+    "new_earliest_date": "2026-08-16",
+    "today_date": "2026-07-22"
+  },
+  {
+    "previous_earliest_date": "2026-08-16",
+    "new_earliest_date": "2026-08-16",
+    "today_date": "2026-07-23"
+  },
+  {
+    "previous_earliest_date": "2026-08-16",
+    "new_earliest_date": "2026-08-16",
+    "today_date": "2026-07-24"
+  },
+  {
+    "previous_earliest_date": "2026-08-16",
+    "new_earliest_date": "2026-08-16",
+    "today_date": "2026-07-25"
+  },
+  {
+    "previous_earliest_date": "2026-08-16",
+    "new_earliest_date": "2026-08-16",
+    "today_date": "2026-07-26"
+  },
+  {
+    "previous_earliest_date": "2026-08-16",
+    "new_earliest_date": "2026-08-16",
+    "today_date": "2026-07-27"
+  },
+  {
+    "previous_earliest_date": "2026-08-16",
+    "new_earliest_date": "2026-08-16",
+    "today_date": "2026-07-28"
+  },
+  {
+    "previous_earliest_date": "2026-08-16",
+    "new_earliest_date": "2026-08-16",
+    "today_date": "2026-07-29"
+  },
+  {
+    "previous_earliest_date": "2026-08-16",
+    "new_earliest_date": "2026-08-15",
+    "today_date": "2026-07-29"
+  },
+  {
+    "previous_earliest_date": "2026-08-15",
+    "new_earliest_date": "2026-08-15",
+    "today_date": "2026-07-29"
+  },
+  {
+    "previous_earliest_date": "2026-08-15",
+    "new_earliest_date": "2026-08-15",
+    "today_date": "2026-07-30"
+  },
+  {
+    "previous_earliest_date": "2026-08-15",
+    "new_earliest_date": "2026-08-15",
+    "today_date": "2026-07-31"
+  },
+  {
+    "previous_earliest_date": "2026-08-15",
+    "new_earliest_date": "2026-08-08",
+    "today_date": "2026-07-31"
+  }
 ]
