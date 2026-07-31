@@ -618,5 +618,10 @@
         "previous_earliest_date": "2026-08-15",
         "new_earliest_date": "2026-08-15",
         "today_date": "2026-07-31"
+    },
+    {
+        "previous_earliest_date": "2026-08-15",
+        "new_earliest_date": "2026-08-15",
+        "today_date": "2026-07-31"
     }
 ]
