@@ -11,26 +11,38 @@ from constants import URL, STATE_FILE, LOGS_FILE
 
 def update_logs(previous_earliest_date, new_earliest_date):
     today_date = datetime.today().date().isoformat()
+    previous_date = previous_earliest_date.isoformat()
+    new_date = new_earliest_date.isoformat()
 
-    with open(LOGS_FILE, "r") as f:
-        logs = json.load(f)
+    # Load existing logs or create an empty list
+    if LOGS_FILE.exists():
+        try:
+            with open(LOGS_FILE, "r", encoding="utf-8") as f:
+                logs = json.load(f)
 
-    if logs[-1]["today_date"] != today_date:
-        logs.append({
-            "previous_earliest_date": previous_earliest_date.isoformat(),
-            "new_earliest_date": new_earliest_date.isoformat(),
-            "today_date": datetime.today().date().isoformat()
-        })
+            if not isinstance(logs, list):
+                logs = []
+        except (json.JSONDecodeError, OSError):
+            logs = []
+    else:
+        logs = []
 
-    elif  logs[-1]["today_date"] == today_date and new_earliest_date!=logs[-1]["new_earliest_date"]:
-        logs.append({
-            "previous_earliest_date": previous_earliest_date.isoformat(),
-            "new_earliest_date": new_earliest_date.isoformat(),
-            "today_date": datetime.today().date().isoformat()
-        })
+    new_log = {
+        "previous_earliest_date": previous_date,
+        "new_earliest_date": new_date,
+        "today_date": today_date
+    }
 
-    with open(LOGS_FILE, "w") as f:
-        json.dump(logs, f, indent=4)
+    # Only append when this exact log does not already exist
+    if new_log not in logs:
+        logs.append(new_log)
+
+        with open(LOGS_FILE, "w", encoding="utf-8") as f:
+            json.dump(logs, f, indent=4)
+
+        print("New log added.")
+    else:
+        print("Duplicate log ignored.")
 
 async def get_browser_date(browser):
     page = await browser.new_page()
