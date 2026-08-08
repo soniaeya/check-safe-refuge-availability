@@ -138,5 +138,10 @@
         "previous_earliest_date": "2026-08-08",
         "new_earliest_date": "2026-08-08",
         "today_date": "2026-08-07"
+    },
+    {
+        "previous_earliest_date": "2026-08-08",
+        "new_earliest_date": "2026-08-08",
+        "today_date": "2026-08-08"
     }
 ]
