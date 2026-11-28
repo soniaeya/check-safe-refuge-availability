@@ -1208,5 +1208,10 @@
         "previous_earliest_date": "2026-01-14",
         "new_earliest_date": "2026-01-14",
         "today_date": "2026-11-27"
+    },
+    {
+        "previous_earliest_date": "2026-01-14",
+        "new_earliest_date": "2026-01-14",
+        "today_date": "2026-11-28"
     }
 ]
